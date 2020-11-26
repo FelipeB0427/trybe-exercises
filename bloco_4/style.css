@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+  margin-top: 30px;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+section label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+section button {
+  margin-top: 30px;
+}

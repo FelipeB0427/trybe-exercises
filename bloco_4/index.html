@@ -3,25 +3,26 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
       <title>Bloco 4 Dia 1 (JavaScript)</title>
     </head>
   <body>
     <section>
       <h1>Operações aritméticas básicas</h1>
-      <h3>Adição</h3>
+      <label for="adicao">Adição</label>
       <input id="adicao" type="text" disabled>
       
-      <h3>Subtração</h3>
+      <label for="subtracao">Subtração</label>
       <input id="subtracao" type="text" disabled>
       
-      <h3>Multiplicação</h3>
+      <label for="multiplicacao">Multiplicação</label>
       <input id="multiplicacao" type="text" disabled>
       
-      <h3>Divisão</h3>
+      <label for="divisao">Divisão</label>
       <input id="divisao" type="text" disabled>
       
-      <h3>Módulo</h3>
-      <input id="modulo" type="text" disabled>
+      <label for="modulo">Módulo</label>
+      <input id="modulo" type="text" disabled><br>
       
       <button id="botao"> Mostrar Resultados</button>
     </section>
@@ -29,49 +30,116 @@
     <section>
       <h1>Operações de Comparação</h1>
 
-      <h3>Maior valor entre dois números</h3>
-      <label for="primeiro-valor-1">Primeiro Valor</label>
-      <input id="primeiro-valor-1" type="number">
-      <label for="segundo-valor-1">Segundo Valor</label>
-      <input id="segundo-valor-1" type="number">
-      <button id="botao-1">Enviar!</button>
-      <label for="resultado-1">Resultado</label>
-      <input id="resultado-1" type="text" disabled>
+      <div>
+        <h3>Maior valor entre dois números</h3>
+        <label for="primeiro-valor-1">Primeiro Valor</label>
+        <input id="primeiro-valor-1" type="number">
+        <label for="segundo-valor-1">Segundo Valor</label>
+        <input id="segundo-valor-1" type="number"><br>
+        <button id="botao-1">Enviar!</button>
+        <label for="resultado-1">Resultado</label>
+        <input id="resultado-1" type="text" disabled>
+      </div>
+      
+      <div>
+        <h3>Maior valor entre três números</h3>
+        <label for="primeiro-valor-2">Primeiro Valor</label>
+        <input id="primeiro-valor-2" type="number">
+        <label for="segundo-valor-2">Segundo Valor</label>
+        <input id="segundo-valor-2" type="number">
+        <label for="terceiro-valor-2">Terceiro Valor</label>
+        <input id="terceiro-valor-2" type="number"><br>
+        <button id="botao-2">Enviar!</button>
+        <label for="resultado-2">Resultado</label>
+        <input id="resultado-2" type="text" disabled>
+      </div>
+      
+      <div>
+        <h3>Valor positivo, negativo ou neutro.</h3>
+        <label for="valor-3">Digite um valor</label>
+        <input id="valor-3" type="number"><br>
+        <button id="botao-3">Enviar!</button>
+        <label for="resultado-3">Resultado</label>
+        <input id="resultado-3" type="text" disabled>
+      </div>
+      
+      <div>
+        <h3>Triângulo</h3>
+        <label for="primeiro-valor-4">Primeiro Valor</label>
+        <input id="primeiro-valor-4" type="number">
+        <label for="segundo-valor-4">Segundo Valor</label>
+        <input id="segundo-valor-4" type="number">
+        <label for="terceiro-valor-4">Terceiro Valor</label>
+        <input id="terceiro-valor-4" type="number"><br>
+        <button id="botao-4">Enviar!</button>
+        <label for="resultado-4">Resultado</label>
+        <input id="resultado-4" type="text" disabled>
+      </div>
 
-      <h3>Maior valor entre três números</h3>
-      <label for="primeiro-valor-2">Primeiro Valor</label>
-      <input id="primeiro-valor-2" type="number">
-      <label for="segundo-valor-2">Segundo Valor</label>
-      <input id="segundo-valor-2" type="number">
-      <label for="terceiro-valor-2">Terceiro Valor</label>
-      <input id="terceiro-valor-2" type="number">
-      <button id="botao-2">Enviar!</button>
-      <label for="resultado-2">Resultado</label>
-      <input id="resultado-2" type="text" disabled>
+      <div>
+        <h3>Peças de xadrez</h3>
+        <label for="valor-5">Valor</label>
+        <input id="valor-5" type="text"><br>
+        <button id="botao-5">Enviar!</button>
+        <label for="resultado-5">Resultado</label>
+        <input id="resultado-5" type="text" disabled>
+      </div>
       
-      <h3>Valor positivo, negativo ou neutro.</h3>
-      <label for="valor-3">Digite um valor</label>
-      <input id="valor-3" type="number">
-      <button id="botao-3">Enviar!</button>
-      <label for="resultado-3">Resultado</label>
-      <input id="resultado-3" type="text" disabled>
-      
-      <h3>Triângulo</h3>
-      <label for="primeiro-valor-4">Primeiro Valor</label>
-      <input id="primeiro-valor-4" type="number">
-      <label for="segundo-valor-4">Segundo Valor</label>
-      <input id="segundo-valor-4" type="number">
-      <label for="terceiro-valor-4">Terceiro Valor</label>
-      <input id="terceiro-valor-4" type="number">
-      <button id="botao-4">Enviar!</button>
-      <label for="resultado-4">Resultado</label>
-      <input id="resultado-4" type="text" disabled>
-      
-      <h3>Módulo</h3>
-      <input id="modulo" type="text" disabled>
-      
-      <button id="botao"> Mostrar Resultados</button>
-    </section>
+      <div>
+        <h3>Conversor de notas</h3>
+        <label for="valor-6">Valor</label>
+        <input id="valor-6" type="number"><br>
+        <button id="botao-6">Enviar!</button>
+        <label for="resultado-6">Resultado</label>
+        <input id="resultado-6" type="text" disabled>
+      </div>
+
+      <div>
+        <h3>Número Par</h3>
+        <label for="primeiro-valor-7">Primeiro Valor</label>
+        <input id="primeiro-valor-7" type="number">
+        <label for="segundo-valor-7">Segundo Valor</label>
+        <input id="segundo-valor-7" type="number">
+        <label for="terceiro-valor-7">Terceiro Valor</label>
+        <input id="terceiro-valor-7" type="number"><br>
+        <button id="botao-7">Enviar!</button>
+        <label for="resultado-7">Resultado</label>
+        <input id="resultado-7" type="text" disabled>
+      </div>
+
+      <div>
+        <h3>Número Impar</h3>
+        <label for="primeiro-valor-8">Primeiro Valor</label>
+        <input id="primeiro-valor-8" type="number">
+        <label for="segundo-valor-8">Segundo Valor</label>
+        <input id="segundo-valor-8" type="number">
+        <label for="terceiro-valor-8">Terceiro Valor</label>
+        <input id="terceiro-valor-8" type="number"><br>
+        <button id="botao-8">Enviar!</button>
+        <label for="resultado-8">Resultado</label>
+        <input id="resultado-8" type="text" disabled>
+      </div>
+
+      <div>
+        <h3>Vendas</h3>
+        <label for="primeiro-valor-9">Custo do Produto</label>
+        <input id="primeiro-valor-9" type="number">
+        <label for="segundo-valor-9">Valor de Venda</label>
+        <input id="segundo-valor-9" type="number"><br>
+        <button id="botao-9">Enviar!</button>
+        <label for="resultado-9">Lucro de 1000 vendas</label>
+        <input id="resultado-9" type="number" disabled>
+      </div>
+
+      <div>
+        <h3>Imposto</h3>
+        <label for="valor-10">Salário Bruto</label>
+        <input id="valor-10" type="number"><br>
+        <button id="botao-10">Enviar!</button>
+        <label for="resultado-10">Salário Líquido</label>
+        <input id="resultado-10" type="number" disabled>
+      </div>
+      </section>
     <script src="./operacoes.js"></script>
   </body>
 </html>
